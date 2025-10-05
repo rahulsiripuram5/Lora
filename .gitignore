@@ -1,0 +1,11 @@
+# Ignore Python cache and environment files
+__pycache__/
+lora_env/
+venv/
+
+# Ignore large model and output directories
+lora-llama3-8b-finetuned/
+full-llama3-8b-finetuned/
+
+# Ignore log files
+*.log
